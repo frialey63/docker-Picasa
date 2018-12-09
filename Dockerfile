@@ -5,7 +5,7 @@
 #
 # docker build -t picasa .
 # xhost +
-# docker run -i --rm --net=host -v /home/paul:/home/paul -v /mnt/media/Pictures:/media picasa
+# docker run -i --rm --net=host --ipc=host -v /home/paul:/home/paul -v /mnt/media/Pictures:/media picasa
 
 FROM 32bit/debian
 
